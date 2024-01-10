@@ -1,0 +1,20 @@
+{
+	"identifier": "Top_right_bottom_left_corridor",
+	"uniqueIdentifer": "3e87f500-1460-11ee-a11c-f36c881be5f0",
+	"x": 1360,
+	"y": -316,
+	"width": 952,
+	"height": 952,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "6fb6e1e0-1460-11ee-845d-bde056c3115c",
+			"dir": "o"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities" : {}
+}

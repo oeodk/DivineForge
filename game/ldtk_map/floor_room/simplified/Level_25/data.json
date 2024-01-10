@@ -1,0 +1,123 @@
+{
+	"identifier": "Level_25",
+	"uniqueIdentifer": "e69d0a90-6280-11ee-8c98-4f673cca6778",
+	"x": 1496,
+	"y": 6120,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "e3de5fc0-6280-11ee-8c98-87f0e3f8d09d",
+			"dir": "n"
+		},
+		{
+			"levelIid": "e5f97790-6280-11ee-8c98-876a303f49b5",
+			"dir": "w"
+		},
+		{
+			"levelIid": "f5078830-6280-11ee-8c98-339a7e8fac2c",
+			"dir": "e"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Enemy_Jumper": [
+			{
+				"id": "Enemy_Jumper",
+				"iid": "d2a1a140-8990-11ee-8fac-037e3fb6e135",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "d2f53f80-8990-11ee-8fac-b58264ce8135",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			}
+		],
+		"Enemy_Shouter": [
+			{
+				"id": "Enemy_Shouter",
+				"iid": "d4b60250-8990-11ee-8fac-2f7d209f44b8",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 170,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "d521e380-8990-11ee-8fac-e7978d12e3d6",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 170,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "d5a6f200-8990-11ee-8fac-a5f6413df7fb",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 850,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "d5f67190-8990-11ee-8fac-b12fd20d228a",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 850,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

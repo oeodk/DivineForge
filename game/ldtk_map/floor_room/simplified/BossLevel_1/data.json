@@ -1,0 +1,99 @@
+{
+	"identifier": "BossLevel_1",
+	"uniqueIdentifer": "3f3c3900-3b70-11ee-a9a5-71b8c795aa45",
+	"x": -1104,
+	"y": 16,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "8d76d150-6280-11ee-bf63-d76148964ded",
+			"dir": "s"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "7e7043f0-3b70-11ee-810f-1beaca539917",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 15389866,
+				"customFields": {
+					"Room_empty": true,
+					"auto": true
+				}
+			}
+		],
+		"Laying_item": [
+			{
+				"id": "Laying_item",
+				"iid": "a8b5a6e0-6280-11ee-b863-ff136af2c7e8",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 14984818,
+				"customFields": {
+					"auto": true
+				}
+			}
+		],
+		"Boss_Giant_Spider": [
+			{
+				"id": "Boss_Giant_Spider",
+				"iid": "3f3c6011-3b70-11ee-a9a5-6bcbabf7de7d",
+				"layer": "Boss",
+				"x": 510,
+				"y": 510,
+				"width": 134,
+				"height": 134,
+				"color": 10315353,
+				"customFields": {
+					"speed": 1,
+					"life": 20,
+					"damage": 1
+				}
+			}
+		],
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "9f267b30-8990-11ee-8814-896f536c5c5b",
+				"layer": "Animated_object",
+				"x": 374,
+				"y": 68,
+				"width": 14,
+				"height": 68,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 2
+				}
+			},
+			{
+				"id": "Torch",
+				"iid": "a0400180-8990-11ee-8814-c195251e94a1",
+				"layer": "Animated_object",
+				"x": 646,
+				"y": 68,
+				"width": 14,
+				"height": 68,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 2
+				}
+			}
+		]
+	}
+}

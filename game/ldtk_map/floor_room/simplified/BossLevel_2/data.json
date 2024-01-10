@@ -1,0 +1,121 @@
+{
+	"identifier": "BossLevel_2",
+	"uniqueIdentifer": "8d76d150-6280-11ee-bf63-d76148964ded",
+	"x": -1104,
+	"y": 1036,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "3f3c3900-3b70-11ee-a9a5-71b8c795aa45",
+			"dir": "n"
+		},
+		{
+			"levelIid": "967ead40-6280-11ee-bf63-2385e444c1f2",
+			"dir": "s"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "8d76d152-6280-11ee-bf63-b963f0581c8c",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 15389866,
+				"customFields": {
+					"Room_empty": true,
+					"auto": true
+				}
+			}
+		],
+		"Laying_item": [
+			{
+				"id": "Laying_item",
+				"iid": "acfa0750-6280-11ee-b863-8106a67f4d6e",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 14984818,
+				"customFields": {
+					"auto": true
+				}
+			}
+		],
+		"Boss_Giant_Spider": [
+			{
+				"id": "Boss_Giant_Spider",
+				"iid": "8d76f860-6280-11ee-bf63-41f51f4ef76d",
+				"layer": "Boss",
+				"x": 510,
+				"y": 510,
+				"width": 134,
+				"height": 134,
+				"color": 10315353,
+				"customFields": {
+					"speed": 1,
+					"life": 20,
+					"damage": 1
+				}
+			}
+		],
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "a9b8c7b0-8990-11ee-8814-71f6cb249e33",
+				"layer": "Animated_object",
+				"x": 306,
+				"y": 68,
+				"width": 14,
+				"height": 68,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 2
+				}
+			}
+		],
+		"Enemy_Shouter": [
+			{
+				"id": "Enemy_Shouter",
+				"iid": "ed94e430-8990-11ee-8fac-fff3d60bdfcc",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "ee716180-8990-11ee-8fac-998d01613eca",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

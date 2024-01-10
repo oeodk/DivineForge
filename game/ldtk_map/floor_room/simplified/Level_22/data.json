@@ -1,0 +1,127 @@
+{
+	"identifier": "Level_22",
+	"uniqueIdentifer": "e4d12430-6280-11ee-8c98-d51de785c120",
+	"x": 2516,
+	"y": 5100,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "e3de5fc0-6280-11ee-8c98-87f0e3f8d09d",
+			"dir": "w"
+		},
+		{
+			"levelIid": "e56d6430-6280-11ee-8c98-9b30ae4ad3e1",
+			"dir": "e"
+		},
+		{
+			"levelIid": "f5078830-6280-11ee-8c98-339a7e8fac2c",
+			"dir": "s"
+		},
+		{
+			"levelIid": "df0f4b80-6280-11ee-8c98-414b79c4f72e",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Enemy_Stalker": [
+			{
+				"id": "Enemy_Stalker",
+				"iid": "b1fa1a30-8990-11ee-8fac-11b46956a471",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 714,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "b6e89d50-8990-11ee-8fac-8bd45388a02f",
+				"layer": "Enemies",
+				"x": 306,
+				"y": 578,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "b922fcf0-8990-11ee-8fac-31e285c31f0a",
+				"layer": "Enemies",
+				"x": 714,
+				"y": 442,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "ba1f3740-8990-11ee-8fac-8be59bdcf36a",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 306,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		],
+		"Enemy_Shouter": [
+			{
+				"id": "Enemy_Shouter",
+				"iid": "b46c52b0-8990-11ee-8fac-47fb39a70204",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "bb8c5bd0-8990-11ee-8fac-47b432217805",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 374,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

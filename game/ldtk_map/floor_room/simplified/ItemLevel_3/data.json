@@ -1,0 +1,57 @@
+{
+	"identifier": "ItemLevel_3",
+	"uniqueIdentifer": "0fe8cbf0-6280-11ee-8c98-491dabab3906",
+	"x": -2172,
+	"y": -1264,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "47b9b740-3b70-11ee-ba0b-3d1d273e5a2f",
+			"dir": "e"
+		},
+		{
+			"levelIid": "cd09e0f0-6280-11ee-8c98-ad2e0dfbdcfd",
+			"dir": "w"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Laying_item": [
+			{
+				"id": "Laying_item",
+				"iid": "0fe8cbf2-6280-11ee-8c98-77ca3cba64e0",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 14984818,
+				"customFields": {
+					"auto": true
+				}
+			}
+		],
+		"Enemy_Stalker": [
+			{
+				"id": "Enemy_Stalker",
+				"iid": "f43a8d30-8990-11ee-8fac-f3b94c7e3f1c",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

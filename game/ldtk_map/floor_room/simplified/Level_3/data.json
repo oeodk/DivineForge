@@ -1,0 +1,91 @@
+{
+	"identifier": "Level_3",
+	"uniqueIdentifer": "fcf461f0-6280-11ee-bf63-17f7b0896d2e",
+	"x": 476,
+	"y": 3076,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "3ce07d60-6280-11ee-926d-8117ec6e649b",
+			"dir": "o"
+		},
+		{
+			"levelIid": "dccf94b0-6280-11ee-8c98-5bf59920903c",
+			"dir": "e"
+		},
+		{
+			"levelIid": "5be223f0-6280-11ee-bf63-a19a89e10196",
+			"dir": "e"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Enemy_Shouter": [
+			{
+				"id": "Enemy_Shouter",
+				"iid": "9be8fe50-8990-11ee-8fac-75e521362714",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 442,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "9c47e730-8990-11ee-8fac-ff45eda374e2",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "9c7a8ff0-8990-11ee-8fac-e3070d9a3308",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 578,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "9cbcc910-8990-11ee-8fac-292491a726b8",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

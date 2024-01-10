@@ -1,0 +1,117 @@
+{
+	"identifier": "BossLevel_3",
+	"uniqueIdentifer": "967ead40-6280-11ee-bf63-2385e444c1f2",
+	"x": -1104,
+	"y": 2056,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "8d76d150-6280-11ee-bf63-d76148964ded",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "967ead42-6280-11ee-bf63-bf0e7a90e296",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 15389866,
+				"customFields": {
+					"Room_empty": true,
+					"auto": true
+				}
+			}
+		],
+		"Laying_item": [
+			{
+				"id": "Laying_item",
+				"iid": "b0442940-6280-11ee-b863-69131c8922d5",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 14984818,
+				"customFields": {
+					"auto": true
+				}
+			}
+		],
+		"Boss_Giant_Spider": [
+			{
+				"id": "Boss_Giant_Spider",
+				"iid": "967f4981-6280-11ee-bf63-67a42ce82122",
+				"layer": "Boss",
+				"x": 510,
+				"y": 510,
+				"width": 134,
+				"height": 134,
+				"color": 10315353,
+				"customFields": {
+					"speed": 1,
+					"life": 20,
+					"damage": 1
+				}
+			}
+		],
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "afbc6450-8990-11ee-8814-e10fb89beda6",
+				"layer": "Animated_object",
+				"x": 714,
+				"y": 68,
+				"width": 14,
+				"height": 68,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 2
+				}
+			}
+		],
+		"Enemy_Stalker": [
+			{
+				"id": "Enemy_Stalker",
+				"iid": "e9fec520-8990-11ee-8fac-6bca90b221ba",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "eb1f7760-8990-11ee-8fac-9d3a90f4d9b5",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

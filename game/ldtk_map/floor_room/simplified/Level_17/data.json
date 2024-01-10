@@ -1,0 +1,116 @@
+{
+	"identifier": "Level_17",
+	"uniqueIdentifer": "dccf94b0-6280-11ee-8c98-5bf59920903c",
+	"x": 1496,
+	"y": 4080,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "e3de5fc0-6280-11ee-8c98-87f0e3f8d09d",
+			"dir": "s"
+		},
+		{
+			"levelIid": "df0f4b80-6280-11ee-8c98-414b79c4f72e",
+			"dir": "e"
+		},
+		{
+			"levelIid": "3ce07d60-6280-11ee-926d-8117ec6e649b",
+			"dir": "w"
+		},
+		{
+			"levelIid": "fcf461f0-6280-11ee-bf63-17f7b0896d2e",
+			"dir": "w"
+		},
+		{
+			"levelIid": "5be223f0-6280-11ee-bf63-a19a89e10196",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Enemy_Jumper": [
+			{
+				"id": "Enemy_Jumper",
+				"iid": "a3bd8a60-8990-11ee-8fac-c94eaeb15981",
+				"layer": "Enemies",
+				"x": 170,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "a4ffce60-8990-11ee-8fac-17097bca074e",
+				"layer": "Enemies",
+				"x": 170,
+				"y": 374,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			}
+		],
+		"Enemy_Stalker": [
+			{
+				"id": "Enemy_Stalker",
+				"iid": "a65f1040-8990-11ee-8fac-efd02c1d9e54",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 578,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "a70e3c00-8990-11ee-8fac-c7d65d670eb1",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "a74307a0-8990-11ee-8fac-394fed3baf55",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 442,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

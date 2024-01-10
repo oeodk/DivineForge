@@ -1,0 +1,91 @@
+{
+	"identifier": "Level_13",
+	"uniqueIdentifer": "63a46080-6280-11ee-bf63-db46861a04a4",
+	"x": 3536,
+	"y": 1020,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "5eb12270-6280-11ee-bf63-270273a21b1d",
+			"dir": "w"
+		},
+		{
+			"levelIid": "625f8470-6280-11ee-bf63-5133ba7529d4",
+			"dir": "n"
+		},
+		{
+			"levelIid": "653e6170-6280-11ee-bf63-1bc4ed629c0b",
+			"dir": "s"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Enemy_Jumper": [
+			{
+				"id": "Enemy_Jumper",
+				"iid": "4d96cac0-8990-11ee-8fac-999b7e3a460b",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 374,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "4e549c80-8990-11ee-8fac-9f9218f61b0e",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 374,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "4f03ef50-8990-11ee-8fac-59ceda22141e",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "5013d8b0-8990-11ee-8fac-0fd914d790f9",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			}
+		]
+	}
+}
