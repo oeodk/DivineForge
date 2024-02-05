@@ -5,6 +5,9 @@
 
 Ce jeu est encore en dévelopement.
 L'objectif est d'explorer un niveau dans le but de vaincre le boss. Pour vous aider différents bonnus sont disponible dans le niveau
+
+[![Watch the video](https://github.com/oeodk/gameProject/blob/master/trailer.png)](https://www.youtube.com/watch?v=5xxfqDIbI04)
+
 ## Contrôles
 
 - Se déplacer : ZQSD
