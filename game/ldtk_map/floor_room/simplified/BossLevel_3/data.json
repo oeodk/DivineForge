@@ -72,12 +72,12 @@
 				"layer": "Animated_object",
 				"x": 714,
 				"y": 68,
-				"width": 14,
-				"height": 68,
+				"width": 22,
+				"height": 81,
 				"color": 14120515,
 				"customFields": {
 					"animation_frame": 5,
-					"frame_per_image": 2
+					"frame_per_image": 3
 				}
 			}
 		],
