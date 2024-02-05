@@ -1,8 +1,0 @@
-Cette version ajoute :
-- Des particules
-- De nouvelles images d'objets
-- Un nouveau système d'arme et de gestion des objets
-  Les armes sont récupérable sur des forges abandoné (avec le bouton d'interraction)
-- Il est maintenant possible de changer l'emplacement des objets avec des forges 
-  (après avoir interagi avec la forge un menu s'ouvre, il suffit ensuite de déplacé l'objet à changer 
-   sur le nouvel emplacement)
