@@ -12,15 +12,32 @@
 			"dir": "w"
 		},
 		{
+			"levelIid": "a7a8c010-6280-11ee-bf63-33e9b54c18b1",
+			"dir": "sw"
+		},
+		{
 			"levelIid": "598daca0-6280-11ee-bf63-656c29f2f28e",
 			"dir": "s"
 		},
 		{
 			"levelIid": "5d7ebcf0-6280-11ee-bf63-bf5690f1ad8e",
 			"dir": "e"
+		},
+		{
+			"levelIid": "5eb12270-6280-11ee-bf63-270273a21b1d",
+			"dir": "se"
 		}
 	],
-	"customFields" : {},
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
 	"layers": [
 		"Base_level.png"
 	],

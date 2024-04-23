@@ -16,7 +16,16 @@
 			"dir": "n"
 		}
 	],
-	"customFields" : {},
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
 	"layers": [
 		"Base_level.png"
 	],

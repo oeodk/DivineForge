@@ -18,9 +18,26 @@
 		{
 			"levelIid": "e33352b0-6280-11ee-8c98-59d159b6a08c",
 			"dir": "s"
+		},
+		{
+			"levelIid": "e3de5fc0-6280-11ee-8c98-87f0e3f8d09d",
+			"dir": "se"
+		},
+		{
+			"levelIid": "5be223f0-6280-11ee-bf63-a19a89e10196",
+			"dir": "ne"
 		}
 	],
-	"customFields" : {},
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
 	"layers": [
 		"Base_level.png"
 	],

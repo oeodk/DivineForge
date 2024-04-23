@@ -1,0 +1,105 @@
+{
+	"identifier": "Level_40",
+	"uniqueIdentifer": "cfbac1f0-fec0-11ee-a000-6d6ab3264f45",
+	"x": 5576,
+	"y": 5100,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "cea35e80-fec0-11ee-a000-5d83e786111d",
+			"dir": "n"
+		},
+		{
+			"levelIid": "d0c8af80-fec0-11ee-a000-9181af1712fe",
+			"dir": "s"
+		},
+		{
+			"levelIid": "d1f066a0-fec0-11ee-a000-3164b7186438",
+			"dir": "se"
+		},
+		{
+			"levelIid": "d3142620-fec0-11ee-a000-5327821b3ecd",
+			"dir": "e"
+		},
+		{
+			"levelIid": "d97fd360-fec0-11ee-a000-9b6af6b37845",
+			"dir": "ne"
+		},
+		{
+			"levelIid": "c4883dd0-fec0-11ee-a000-6dc2d85c0cbc",
+			"dir": "nw"
+		},
+		{
+			"levelIid": "c5a19d10-fec0-11ee-a000-43edbb04f575",
+			"dir": "w"
+		},
+		{
+			"levelIid": "c77f0fa0-fec0-11ee-a000-c76b37071862",
+			"dir": "sw"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": false,
+		"path_right": false,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "cfbae901-fec0-11ee-a000-f7974175321a",
+				"layer": "Animated_object",
+				"x": 374,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			},
+			{
+				"id": "Torch",
+				"iid": "cfbae902-fec0-11ee-a000-090a7ecf19f5",
+				"layer": "Animated_object",
+				"x": 646,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			}
+		],
+		"Enemy_Shouter": [
+			{
+				"id": "Enemy_Shouter",
+				"iid": "ef8e39b0-fec0-11ee-a000-1bb139249689",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

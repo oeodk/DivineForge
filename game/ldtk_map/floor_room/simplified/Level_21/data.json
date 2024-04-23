@@ -20,11 +20,36 @@
 			"dir": "e"
 		},
 		{
+			"levelIid": "e5f97790-6280-11ee-8c98-876a303f49b5",
+			"dir": "sw"
+		},
+		{
 			"levelIid": "e69d0a90-6280-11ee-8c98-4f673cca6778",
 			"dir": "s"
+		},
+		{
+			"levelIid": "f5078830-6280-11ee-8c98-339a7e8fac2c",
+			"dir": "se"
+		},
+		{
+			"levelIid": "df0f4b80-6280-11ee-8c98-414b79c4f72e",
+			"dir": "ne"
+		},
+		{
+			"levelIid": "3ce07d60-6280-11ee-926d-8117ec6e649b",
+			"dir": "nw"
 		}
 	],
-	"customFields" : {},
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
 	"layers": [
 		"Base_level.png"
 	],

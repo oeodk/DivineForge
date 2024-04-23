@@ -8,15 +8,36 @@
 	"bgColor": "#696A79",
 	"neighbourLevels": [
 		{
+			"levelIid": "a6d5dae0-fec0-11ee-a000-7fa0c3c38f12",
+			"dir": "e"
+		},
+		{
+			"levelIid": "b25a76a0-fec0-11ee-a000-2942f600e12d",
+			"dir": "se"
+		},
+		{
 			"levelIid": "5d7ebcf0-6280-11ee-bf63-bf5690f1ad8e",
 			"dir": "w"
+		},
+		{
+			"levelIid": "5eb12270-6280-11ee-bf63-270273a21b1d",
+			"dir": "sw"
 		},
 		{
 			"levelIid": "63a46080-6280-11ee-bf63-db46861a04a4",
 			"dir": "s"
 		}
 	],
-	"customFields" : {},
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
 	"layers": [
 		"Base_level.png"
 	],

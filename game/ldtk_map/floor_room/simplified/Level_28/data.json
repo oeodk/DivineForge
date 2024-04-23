@@ -1,0 +1,138 @@
+{
+	"identifier": "Level_28",
+	"uniqueIdentifer": "a6d5dae0-fec0-11ee-a000-7fa0c3c38f12",
+	"x": 4556,
+	"y": 0,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "cc675130-fec0-11ee-a000-31f69ff9c17c",
+			"dir": "se"
+		},
+		{
+			"levelIid": "cd5b0000-fec0-11ee-a000-157f80a0365e",
+			"dir": "e"
+		},
+		{
+			"levelIid": "b25a76a0-fec0-11ee-a000-2942f600e12d",
+			"dir": "s"
+		},
+		{
+			"levelIid": "625f8470-6280-11ee-bf63-5133ba7529d4",
+			"dir": "w"
+		},
+		{
+			"levelIid": "63a46080-6280-11ee-bf63-db46861a04a4",
+			"dir": "sw"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": false,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "4f64f290-fec0-11ee-a000-65185de130f6",
+				"layer": "Animated_object",
+				"x": 714,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			},
+			{
+				"id": "Torch",
+				"iid": "5284f740-fec0-11ee-a000-ffe03e5853c3",
+				"layer": "Animated_object",
+				"x": 306,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			}
+		],
+		"Enemy_Exploder": [
+			{
+				"id": "Enemy_Exploder",
+				"iid": "8977fc60-fec0-11ee-a000-6d5f3cb1a601",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 3024169,
+				"customFields": {
+					"life": 0.5
+				}
+			}
+		],
+		"Enemy_Stalker": [
+			{
+				"id": "Enemy_Stalker",
+				"iid": "8d6c19f0-fec0-11ee-a000-cf831f88b26a",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 442,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "8d946270-fec0-11ee-a000-2bfc511ba049",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 442,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Stalker",
+				"iid": "8dc66ef0-fec0-11ee-a000-5b0c60751341",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 442,
+				"width": 68,
+				"height": 68,
+				"color": 12470831,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		]
+	}
+}

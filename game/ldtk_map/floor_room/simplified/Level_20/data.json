@@ -8,6 +8,10 @@
 	"bgColor": "#696A79",
 	"neighbourLevels": [
 		{
+			"levelIid": "dccf94b0-6280-11ee-8c98-5bf59920903c",
+			"dir": "ne"
+		},
+		{
 			"levelIid": "e3de5fc0-6280-11ee-8c98-87f0e3f8d09d",
 			"dir": "e"
 		},
@@ -16,11 +20,24 @@
 			"dir": "s"
 		},
 		{
+			"levelIid": "e69d0a90-6280-11ee-8c98-4f673cca6778",
+			"dir": "se"
+		},
+		{
 			"levelIid": "3ce07d60-6280-11ee-926d-8117ec6e649b",
 			"dir": "n"
 		}
 	],
-	"customFields" : {},
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
 	"layers": [
 		"Base_level.png"
 	],

@@ -1,0 +1,100 @@
+{
+	"identifier": "BossLevel_4",
+	"uniqueIdentifer": "8230d020-d7b0-11ee-b682-234cc82f2a84",
+	"x": -2124,
+	"y": 2056,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "8d76d150-6280-11ee-bf63-d76148964ded",
+			"dir": "ne"
+		},
+		{
+			"levelIid": "967ead40-6280-11ee-bf63-2385e444c1f2",
+			"dir": "e"
+		},
+		{
+			"levelIid": "beabb400-d7b0-11ee-aa24-f79fc95d1472",
+			"dir": "n"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "8230d022-d7b0-11ee-b682-b9add03f1b6b",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 15389866,
+				"customFields": {
+					"Room_empty": true,
+					"auto": true
+				}
+			}
+		],
+		"Laying_item": [
+			{
+				"id": "Laying_item",
+				"iid": "8230d023-d7b0-11ee-b682-b5cc6fdf6aa2",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 14984818,
+				"customFields": {
+					"auto": true
+				}
+			}
+		],
+		"Boss_Gunner": [
+			{
+				"id": "Boss_Gunner",
+				"iid": "a9ea7da0-d7b0-11ee-b682-e316340dc946",
+				"layer": "Boss",
+				"x": 510,
+				"y": 510,
+				"width": 80,
+				"height": 80,
+				"color": 15254483,
+				"customFields": {
+					"speed": 1
+				}
+			}
+		],
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "8230d027-d7b0-11ee-b682-750988c64437",
+				"layer": "Animated_object",
+				"x": 714,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			}
+		]
+	}
+}

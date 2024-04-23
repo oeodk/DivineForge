@@ -1,0 +1,153 @@
+{
+	"identifier": "Level_51",
+	"uniqueIdentifer": "f0d99be0-fec0-11ee-a000-2d9cfad2ecb6",
+	"x": 7616,
+	"y": 5100,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "d1f066a0-fec0-11ee-a000-3164b7186438",
+			"dir": "sw"
+		},
+		{
+			"levelIid": "d3142620-fec0-11ee-a000-5327821b3ecd",
+			"dir": "w"
+		},
+		{
+			"levelIid": "d97fd360-fec0-11ee-a000-9b6af6b37845",
+			"dir": "nw"
+		},
+		{
+			"levelIid": "df0df1e0-fec0-11ee-a000-37424288d1a9",
+			"dir": "s"
+		},
+		{
+			"levelIid": "f48bce70-fec0-11ee-a000-b59c66aacc59",
+			"dir": "n"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "f0d9c2f1-fec0-11ee-a000-3fe2a72a40b0",
+				"layer": "Animated_object",
+				"x": 374,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			},
+			{
+				"id": "Torch",
+				"iid": "f0d9c2f2-fec0-11ee-a000-c3d6416e3f5c",
+				"layer": "Animated_object",
+				"x": 646,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			}
+		],
+		"Enemy_Shouter": [
+			{
+				"id": "Enemy_Shouter",
+				"iid": "79afdf00-fec0-11ee-a000-9b4f2809b1ed",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 374,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "7c73e100-fec0-11ee-a000-f9ca7a48a055",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "7f572ad0-fec0-11ee-a000-cbf03b7a671d",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			},
+			{
+				"id": "Enemy_Shouter",
+				"iid": "7fd00450-fec0-11ee-a000-85c7499aecbe",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 6539085,
+				"customFields": {
+					"speed": 1,
+					"life": 5,
+					"damage": 1
+				}
+			}
+		],
+		"Enemy_Exploder": [
+			{
+				"id": "Enemy_Exploder",
+				"iid": "817b4350-fec0-11ee-a000-93921d4cdc6e",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 3024169,
+				"customFields": {
+					"life": 0.5
+				}
+			}
+		]
+	}
+}
