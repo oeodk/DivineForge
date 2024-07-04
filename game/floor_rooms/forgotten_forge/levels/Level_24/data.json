@@ -1,0 +1,108 @@
+{
+	"identifier": "Level_24",
+	"uniqueIdentifer": "e5f97790-6280-11ee-8c98-876a303f49b5",
+	"x": 476,
+	"y": 6120,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "e33352b0-6280-11ee-8c98-59d159b6a08c",
+			"dir": "n"
+		},
+		{
+			"levelIid": "e3de5fc0-6280-11ee-8c98-87f0e3f8d09d",
+			"dir": "ne"
+		},
+		{
+			"levelIid": "e69d0a90-6280-11ee-8c98-4f673cca6778",
+			"dir": "e"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true,
+		"new_image_top_left": false,
+		"new_image_top": false,
+		"new_image_top_right": false,
+		"new_image_left": false,
+		"new_image_right": false,
+		"new_image_bottom_left": false,
+		"new_image_bottom": false,
+		"new_image_bottom_right": false
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Enemy_Jumper": [
+			{
+				"id": "Enemy_Jumper",
+				"iid": "cd4fa160-8990-11ee-8fac-111a52830094",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 850,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "ce7dc120-8990-11ee-8fac-79678d3c6540",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 170,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "cfdd5120-8990-11ee-8fac-095dd95b102a",
+				"layer": "Enemies",
+				"x": 170,
+				"y": 306,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			},
+			{
+				"id": "Enemy_Jumper",
+				"iid": "d0cb81b0-8990-11ee-8fac-23dc8ff30de7",
+				"layer": "Enemies",
+				"x": 170,
+				"y": 714,
+				"width": 68,
+				"height": 68,
+				"color": 2490623,
+				"customFields": {
+					"speed": 30,
+					"life": 2,
+					"damage": 3
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,267 @@
+{
+	"identifier": "Level_37",
+	"uniqueIdentifer": "cc675130-fec0-11ee-a000-31f69ff9c17c",
+	"x": 5576,
+	"y": 1020,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "a6d5dae0-fec0-11ee-a000-7fa0c3c38f12",
+			"dir": "nw"
+		},
+		{
+			"levelIid": "cb56cb90-fec0-11ee-a000-db53da37b937",
+			"dir": "s"
+		},
+		{
+			"levelIid": "cd5b0000-fec0-11ee-a000-157f80a0365e",
+			"dir": "n"
+		},
+		{
+			"levelIid": "db089640-fec0-11ee-a000-933f9143a944",
+			"dir": "e"
+		},
+		{
+			"levelIid": "dc2fff40-fec0-11ee-a000-0bee2e5b7b02",
+			"dir": "ne"
+		},
+		{
+			"levelIid": "d8132400-fec0-11ee-a000-676988c44329",
+			"dir": "se"
+		},
+		{
+			"levelIid": "b25a76a0-fec0-11ee-a000-2942f600e12d",
+			"dir": "w"
+		},
+		{
+			"levelIid": "bbed2d70-fec0-11ee-a000-397e4fbd3f1b",
+			"dir": "sw"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true,
+		"new_image_top_left": false,
+		"new_image_top": false,
+		"new_image_top_right": false,
+		"new_image_left": false,
+		"new_image_right": false,
+		"new_image_bottom_left": false,
+		"new_image_bottom": false,
+		"new_image_bottom_right": false
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "cc675134-fec0-11ee-a000-a797666e08e6",
+				"layer": "Animated_object",
+				"x": 374,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			},
+			{
+				"id": "Torch",
+				"iid": "cc675135-fec0-11ee-a000-3d5f27ae4e4a",
+				"layer": "Animated_object",
+				"x": 646,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			}
+		],
+		"Enemy_Small_Spider": [
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3a42bf00-fec0-11ee-a000-1f4581855b6c",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 510,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3a795f60-fec0-11ee-a000-e1f70e2adc10",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 442,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3abd4630-fec0-11ee-a000-e5100049e410",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 374,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3b0ac9f0-fec0-11ee-a000-9be9ac022c47",
+				"layer": "Enemies",
+				"x": 306,
+				"y": 306,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3bd015c0-fec0-11ee-a000-533fb6cc23ff",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 578,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3c181b40-fec0-11ee-a000-63641b2a837a",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 646,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3c5ee840-fec0-11ee-a000-7581ff23d11a",
+				"layer": "Enemies",
+				"x": 714,
+				"y": 714,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3d02c960-fec0-11ee-a000-69b732e1f7ee",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 578,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3d45ece0-fec0-11ee-a000-4f401b4f4ef9",
+				"layer": "Enemies",
+				"x": 374,
+				"y": 646,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3d8df260-fec0-11ee-a000-eb0f870fe90a",
+				"layer": "Enemies",
+				"x": 306,
+				"y": 714,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3e871f70-fec0-11ee-a000-bb5e69c66c88",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 442,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3ec0f420-fec0-11ee-a000-f758bb4c9a86",
+				"layer": "Enemies",
+				"x": 646,
+				"y": 374,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "3f9c38f0-fec0-11ee-a000-5549d0bf89ce",
+				"layer": "Enemies",
+				"x": 714,
+				"y": 306,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			}
+		]
+	}
+}

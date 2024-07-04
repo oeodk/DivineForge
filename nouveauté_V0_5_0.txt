@@ -1,0 +1,3 @@
+Cette version ajoute :
+- Un menu permettant de changer le volume sonore et les touches utilisées
+- Une brève description de l'effet des objets

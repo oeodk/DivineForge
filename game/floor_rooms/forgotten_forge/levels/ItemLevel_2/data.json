@@ -1,0 +1,53 @@
+{
+	"identifier": "ItemLevel_2",
+	"uniqueIdentifer": "cd09e0f0-6280-11ee-8c98-ad2e0dfbdcfd",
+	"x": -3192,
+	"y": -1264,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "0fe8cbf0-6280-11ee-8c98-491dabab3906",
+			"dir": "e"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true,
+		"new_image_top_left": false,
+		"new_image_top": false,
+		"new_image_top_right": false,
+		"new_image_left": false,
+		"new_image_right": false,
+		"new_image_bottom_left": false,
+		"new_image_bottom": false,
+		"new_image_bottom_right": false
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Laying_item": [
+			{
+				"id": "Laying_item",
+				"iid": "cd09e0f2-6280-11ee-8c98-6f2f5ccd59b4",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 14984818,
+				"customFields": {
+					"auto": true
+				}
+			}
+		]
+	}
+}

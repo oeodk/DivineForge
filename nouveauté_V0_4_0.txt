@@ -1,5 +1,0 @@
-Cette version ajoute :
-- plus 25 nouvelles salles
-- Un nouvel objet
-- Une nouveau boss
-- Deux nouveaux enemies

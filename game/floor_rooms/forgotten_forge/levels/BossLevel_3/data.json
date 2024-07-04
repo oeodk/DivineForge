@@ -1,0 +1,216 @@
+{
+	"identifier": "BossLevel_3",
+	"uniqueIdentifer": "967ead40-6280-11ee-bf63-2385e444c1f2",
+	"x": -1104,
+	"y": 2056,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "8d76d150-6280-11ee-bf63-d76148964ded",
+			"dir": "n"
+		},
+		{
+			"levelIid": "8230d020-d7b0-11ee-b682-234cc82f2a84",
+			"dir": "w"
+		},
+		{
+			"levelIid": "beabb400-d7b0-11ee-aa24-f79fc95d1472",
+			"dir": "nw"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true,
+		"new_image_top_left": false,
+		"new_image_top": false,
+		"new_image_top_right": false,
+		"new_image_left": false,
+		"new_image_right": false,
+		"new_image_bottom_left": false,
+		"new_image_bottom": false,
+		"new_image_bottom_right": false
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "967ead42-6280-11ee-bf63-bf0e7a90e296",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 510,
+				"width": 68,
+				"height": 68,
+				"color": 15389866,
+				"customFields": {
+					"Room_empty": true,
+					"auto": true
+				}
+			}
+		],
+		"Laying_item": [
+			{
+				"id": "Laying_item",
+				"iid": "b0442940-6280-11ee-b863-69131c8922d5",
+				"layer": "Interactive_object",
+				"x": 510,
+				"y": 646,
+				"width": 68,
+				"height": 68,
+				"color": 14984818,
+				"customFields": {
+					"auto": true
+				}
+			}
+		],
+		"Boss_Giant_Spider": [
+			{
+				"id": "Boss_Giant_Spider",
+				"iid": "967f4981-6280-11ee-bf63-67a42ce82122",
+				"layer": "Boss",
+				"x": 510,
+				"y": 510,
+				"width": 134,
+				"height": 134,
+				"color": 10315353,
+				"customFields": {
+					"speed": 1,
+					"life": 20,
+					"damage": 1
+				}
+			}
+		],
+		"Torch": [
+			{
+				"id": "Torch",
+				"iid": "afbc6450-8990-11ee-8814-e10fb89beda6",
+				"layer": "Animated_object",
+				"x": 714,
+				"y": 68,
+				"width": 22,
+				"height": 81,
+				"color": 14120515,
+				"customFields": {
+					"animation_frame": 5,
+					"frame_per_image": 3
+				}
+			}
+		],
+		"Enemy_Small_Spider": [
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d69698f0-d7b0-11ee-aa24-7ba387537f01",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 510,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d75750e0-d7b0-11ee-aa24-a76c5a5b23e0",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 442,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d7b7c060-d7b0-11ee-aa24-d50b4a699e1e",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 442,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d813c310-d7b0-11ee-aa24-213eb891b6d4",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 442,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d8656580-d7b0-11ee-aa24-91c4b1fd1c31",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 510,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d8bc1100-d7b0-11ee-aa24-6d36cfaf21f0",
+				"layer": "Enemies",
+				"x": 578,
+				"y": 578,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d93f71d0-d7b0-11ee-aa24-8129d7f25e23",
+				"layer": "Enemies",
+				"x": 510,
+				"y": 578,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			},
+			{
+				"id": "Enemy_Small_Spider",
+				"iid": "d9a4c350-d7b0-11ee-aa24-fd4eabea2486",
+				"layer": "Enemies",
+				"x": 442,
+				"y": 578,
+				"width": 28,
+				"height": 22,
+				"color": 13457290,
+				"customFields": {
+					"speed": 1
+				}
+			}
+		]
+	}
+}

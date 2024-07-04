@@ -1,0 +1,74 @@
+{
+	"identifier": "ForgeLevel_3",
+	"uniqueIdentifer": "288d5ab0-8990-11ee-b87d-2167eb4a39f3",
+	"x": 2540,
+	"y": -1264,
+	"width": 1020,
+	"height": 1020,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "73b3f460-8990-11ee-95ac-df73ab45e25b",
+			"dir": "w"
+		},
+		{
+			"levelIid": "31f81720-8990-11ee-b87d-ed5667d0094d",
+			"dir": "n"
+		}
+	],
+	"customFields": {
+		"path_top_left": true,
+		"path_top": true,
+		"path_top_right": true,
+		"path_left": true,
+		"path_right": true,
+		"path_bottom_left": true,
+		"path_bottom": true,
+		"path_bottom_right": true,
+		"new_image_top_left": false,
+		"new_image_top": false,
+		"new_image_top_right": false,
+		"new_image_left": false,
+		"new_image_right": false,
+		"new_image_bottom_left": false,
+		"new_image_bottom": false,
+		"new_image_bottom_right": false
+	},
+	"layers": [
+		"Base_level.png"
+	],
+	"entities": {
+		"Old_Forge": [
+			{
+				"id": "Old_Forge",
+				"iid": "39354fc0-8990-11ee-b87d-7733defea99a",
+				"layer": "Interactive_object",
+				"x": 850,
+				"y": 374,
+				"width": 136,
+				"height": 204,
+				"color": 7552569,
+				"customFields": {
+					"auto": true,
+					"rotation": 90
+				}
+			}
+		],
+		"Active_Forge": [
+			{
+				"id": "Active_Forge",
+				"iid": "9e40cb90-8990-11ee-a053-9b2d4a31dd33",
+				"layer": "Interactive_object",
+				"x": 850,
+				"y": 646,
+				"width": 136,
+				"height": 204,
+				"color": 39387,
+				"customFields": {
+					"auto": true,
+					"rotation": 90
+				}
+			}
+		]
+	}
+}
